@@ -6,4 +6,5 @@ services: docker
 
 
 script:
+- jdk_switcher use openjdk10
 - mvn clean compile package
