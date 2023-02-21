@@ -1,0 +1,8 @@
+sudo: required
+language: java
+install: true
+jdk: openjdk10
+services: docker
+
+script:
+- mvn clean compile package
