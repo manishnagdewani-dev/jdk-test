@@ -1,10 +1,9 @@
 sudo: required
 language: java
 install: true
-jdk: openjdk10
+jdk: openjdk11
 services: docker
 
 
 script:
-- export JAVA_HOME=$HOME/openjdk10
 - mvn clean compile package
