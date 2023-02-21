@@ -6,5 +6,5 @@ services: docker
 
 
 script:
-- jdk_switcher use openjdk10
+- export JAVA_HOME=$HOME/openjdk10
 - mvn clean compile package
