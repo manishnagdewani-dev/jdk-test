@@ -4,6 +4,5 @@ install: true
 jdk: openjdk11
 services: docker
 
-
 script:
 - mvn clean compile package
